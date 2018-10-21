@@ -1,0 +1,22 @@
+.sidenav-container {
+  height: 100%;
+}
+.sidenav {
+  width: 200px;
+}
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+}
+.active-link1{
+  color: #26418f;
+}
+.active-link2{
+  color: #e57373;
+}
+.active-link3{
+  color: #ba68c8;
+}
+mat-icon{
+  padding-right: 1rem;
+}

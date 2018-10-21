@@ -1,0 +1,9 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px">
+
+    <mat-card fxFlex="25" class="teacher-card" *ngFor='let teacher of teachers'>
+        <img mat-card-avatar src="assets/images/{{teacher.image}}.jpg"> 
+        <mat-card-title>{{teacher.name}}</mat-card-title>
+        <mat-card-subtitle>{{teacher.location}}</mat-card-subtitle>
+    </mat-card>
+
+</div>
